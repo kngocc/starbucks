@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -391,6 +396,6 @@ Detail
 }
 
 .page-1{
-  background-image: url(https://i.pinimg.com/564x/8e/ad/b3/8eadb31e0a8fd9f469e1ddb779229de7.jpg);
+  background-image: url(https://stories.starbucks.com/_next/image/?url=https%3A%2F%2Fstories.starbucks.com%2Fuploads%2F2023%2F12%2FStarbucks-Winter-Menu-2024.png&w=1920&q=75);
   background-size: cover;
 }
