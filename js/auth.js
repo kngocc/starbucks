@@ -1,16 +1,11 @@
-const signUpButton = document.getElementById("signUp");
-const signInButton = document.getElementById("signIn");
 const nameElm = document.getElementById("namee");
 const emailElm = document.getElementById("emaill");
 const passwordElm = document.getElementById("passwordd");
+const registerForm = document.getElementById("register-form");
 
-signUpButton.addEventListener("click", () => {
-  container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener("click", () => {
-  container.classList.remove("right-panel-active");
-});
+const loginEmail = document.getElementById('email')
+const loginPassword = document.getElementById('password')
+const loginForm = document.getElementById('login-form')
 
 function handleRegister(e) {
   e.preventDefault();
@@ -45,24 +40,21 @@ function handleRegister(e) {
   window.location = "./index.html";
 }
 
-signUpButton.addEventListener("submit", handleRegister);
-
-
-
+registerForm.addEventListener("submit", handleRegister);
 
 function handleLogin(e) {
-    e.preventDefault();
-      const usersLocal = localStorage.getItem('users');
-      const users = JSON.parse(usersLocal);
-      for (let index = 0; index < users.length; index++) {
-        const element = users[index];
-        if(element.email === email && element.password === password) {
-          alert("Dang nhap thanh cong!");
-          window.location = './index.html'
-          return;
-        }
-      }
-      alert("Sai thong tin dang nhap!");
+  e.preventDefault();
+  const usersLocal = localStorage.getItem("users");
+  const users = JSON.parse(usersLocal);
+  for (let index = 0; index < users.length; index++) {
+    const element = users[index];
+    if (element.email === loginEmail.value && element.password === loginPassword.value) {
+      alert("Dang nhap thanh cong!");
+      window.location = "./index.html";
+      return;
     }
-    
-    signInButton.addEventListener('submit', handleLogin)
+  }
+  alert("Sai thong tin dang nhap!");
+}
+
+loginForm.addEventListener("submit", handleLogin);

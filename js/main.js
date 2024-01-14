@@ -83,7 +83,7 @@ setTimeout(function(){
 
 
 function handleSignin() {
-  window.location = './signin.html'
+  window.location = './auth.html'
 }
 const signIn = document.getElementById('signin');
-signIn.addEventListener('onclick', handleSignin)
+signIn.addEventListener('click', handleSignin)

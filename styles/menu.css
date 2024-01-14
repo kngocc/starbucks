@@ -38,27 +38,8 @@ html {
   }
 }
 
-body {
-  margin: 0;
-}
-div#slider {
-  overflow: hidden;
-}
-div#slider figure img {
-  width: 20%;
-  float: left;
-}
-div#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite;
-}
 
-  
+
 
 
 body::-webkit-scrollbar {
@@ -66,7 +47,7 @@ body::-webkit-scrollbar {
 }
 
 .wrapper-container {
-  padding: 50px 100px;
+  padding: 0 60px;
 }
 .navigation {
   height: 10vh;
@@ -139,10 +120,9 @@ ul {
 
 .container-1 {
   height: 100vh;
-  width: 80vw;
-  margin-left: 10vw;
-  background-color: black;
-  color: white;
+  width: 90vw;
+  color: black;
+  display: flex;
 }
 
 .title {
@@ -151,7 +131,16 @@ ul {
   padding-left: 10%;
 }
 
+.parents{
+  margin-top: 10px;
+}
 .container-2 {
+  width: 100vw;
+}
+
+
+.wrapper-container{
+  height: 100vh;
   width: 100vw;
 }
 
