@@ -46,18 +46,19 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.container-1 {
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
 .wrapper-container {
   padding: 0 60px;
 }
 .navigation {
-  height: 10vh;
-  width: 100vw;
+  height: 10%;
+  width: 100%;
   background-color: white;
-  display: flex;
-}
-
-.container-all {
-  height: 500px;
   display: flex;
 }
 
@@ -67,7 +68,6 @@ body::-webkit-scrollbar {
   width: 5%;
   background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
   background-size: cover;
-  display: flex;
 }
 
 .navi-1 {
@@ -87,62 +87,101 @@ ul {
   list-style-type: none;
 }
 
-.a {
+.ar {
   color: black;
   text-decoration: none;
 }
 
-.a {
+.ar {
   text-decoration: none;
   padding: 20px 30px;
 }
 
-.a:hover {
+.ar:hover {
   background-color: black;
   color: white;
   padding: 20px 30px;
 }
 
-/* hr {
-  width: 80%;
-  color: grey;
-  margin-left: 10%;
-} */
+.navi-2 {
+  height: 100%;
+  width: 58%;
+  display: flex;
+  justify-content: right;
+}
 
-.list {
+
+.button{
+  height: 70%;
+  width: 80%;
+  display:flex;
+  padding-left: 30%;
+  margin-top: 1%;
+  gap: 30px;
+}
+
+button{
+  padding: 10px 50px;
+  border-radius: 40%;
+  text-align: center;
+}
+
+
+.signin{
+  color: black;
+  background-color: white;
+}
+.store{
   height: 100%;
   width: 20%;
 }
-.menu {
+.fa-solid{
+  font-size: 20px;
+  color: black;
+  margin-top: 17px;
+}
+
+.page-1{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin-top: 20px;
+}
+
+.list{
+  height: 100%;
+  width: 20%;
+  padding-left: 5%;
+  background-size: cover;
+  
+}
+
+.top-list{
+  width: 100%;
+  font-family: SoDoSans,sans-serif;
+}
+
+.text{
+  margin-top: 10px;
+  font-family: SoDoSans,sans-serif;
+}
+
+.title{
+  margin-top: 20px;
+}
+
+p{
+  margin-top: 5px;
+}
+.parents{
   height: 100%;
   width: 80%;
-}
-
-.container-1 {
-  height: 100vh;
-  width: 90vw;
-  color: black;
-  display: flex;
-}
-
-.title {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10%;
-}
-
-.parents{
-  margin-top: 10px;
-}
-.container-2 {
-  width: 100vw;
+  padding-right: 5%;
+  
 }
 
 
-.wrapper-container{
-  height: 100vh;
-  width: 100vw;
-}
+
 
 .footer {
   width: 100vw;
