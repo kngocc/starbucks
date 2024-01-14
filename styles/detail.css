@@ -144,11 +144,44 @@
   p{
     margin-top: 5px;
   }
-  .parents{
+  .parents {
     height: 100%;
     width: 80%;
     padding-right: 5%;
+  }
+  
+  .product-list {
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+  
+  }
+  
+  #product-template {
+    height: 10vh;
+    width: 10vw;
+  }
+  
+  img {
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+  }
+  .circle {
     
+    height: 150px;
+    width: 150px;
+  }
+  
+  .circle-title {
+    text-align: center;
+  }
+  
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    padding-top: 20px;
   }
   
   

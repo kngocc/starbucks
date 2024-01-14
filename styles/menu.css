@@ -2,10 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @keyframes slidy {
@@ -38,10 +40,6 @@ html {
   }
 }
 
-
-
-
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -49,25 +47,26 @@ body::-webkit-scrollbar {
 .container-1 {
   height: 100vh;
   width: 100vw;
- 
 }
 
 .wrapper-container {
   padding: 0 60px;
 }
 .navigation {
-  height: 10%;
   width: 100%;
   background-color: white;
   display: flex;
+  padding: 20px 40px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.06),
+    0 0 2px rgba(0, 0, 0, 0.07);
+  font-weight: 700;
 }
 
 .symbol {
-  margin-left: 2%;
-  height: 100%;
-  width: 5%;
+  width: 50px;
   background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .navi-1 {
@@ -110,79 +109,106 @@ ul {
   justify-content: right;
 }
 
-
-.button{
+.button {
   height: 70%;
   width: 80%;
-  display:flex;
+  display: flex;
   padding-left: 30%;
   margin-top: 1%;
   gap: 30px;
 }
 
-button{
+button {
   padding: 10px 50px;
   border-radius: 40%;
   text-align: center;
 }
 
-
-.signin{
+.signin {
   color: black;
   background-color: white;
 }
-.store{
+.store {
   height: 100%;
   width: 20%;
 }
-.fa-solid{
+.fa-solid {
   font-size: 20px;
   color: black;
   margin-top: 17px;
+  padding-left: 20px;
 }
 
-.page-1{
+.page-1 {
   height: 100vh;
   width: 100vw;
   display: flex;
   margin-top: 20px;
 }
 
-.list{
+.list {
   height: 100%;
   width: 20%;
   padding-left: 5%;
   background-size: cover;
-  
 }
 
-.top-list{
+.top-list {
   width: 100%;
-  font-family: SoDoSans,sans-serif;
+  font-family: SoDoSans, sans-serif;
 }
 
-.text{
+.text {
   margin-top: 10px;
-  font-family: SoDoSans,sans-serif;
+  font-family: SoDoSans, sans-serif;
 }
 
-.title{
+.title {
   margin-top: 20px;
 }
 
-p{
+p {
   margin-top: 5px;
 }
-.parents{
+.parents {
   height: 100%;
   width: 80%;
   padding-right: 5%;
-  
 }
 
+.product-list {
+  height: 52%;
+  width: 100%;
+  padding-left: 100px;
 
+}
 
+#product-template {
+  height: 10vh;
+  width: 10vw;
+}
 
+img {
+  height: 150px;
+  border-radius: 50%;
+  width: 150px;
+}
+.circle {
+  
+  height: 150px;
+  width: 150px;
+}
+
+.circle-title {
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  padding-top: 20px;
+}
 .footer {
   width: 100vw;
 }
