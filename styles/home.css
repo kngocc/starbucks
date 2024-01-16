@@ -25,17 +25,19 @@ body::-webkit-scrollbar {
   width: 100%;
   background-color: white;
   display: flex;
-  padding: 20px 0 ;
+  padding: 10px 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
   font-weight: 700;
 }
 
 .symbol {
   margin-left: 2%;
-  height: 100%;
   width: 5%;
+  padding-top: 10px;
+  height: 50px;
   background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
 }
 
@@ -44,7 +46,7 @@ body::-webkit-scrollbar {
   width: 35%;
   text-decoration: none;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 14px;
   text-transform: uppercase;
   margin-left: 2%;
   font-size: 14px;
@@ -80,18 +82,19 @@ ul {
 }
 
 
+
 .button{
   height: 70%;
   width: 80%;
   display:flex;
-  padding-left: 30%;
-  margin-top: 1%;
-  gap: 30px;
+  padding-left: 45%;
+  padding-top: 9px;
+  gap: 40px;
 }
 
 button{
-  padding: 10px 50px;
-  border-radius: 40%;
+  padding: 5px 1.5em;
+  border-radius: 100px;
   text-align: center;
 }
 
@@ -103,6 +106,7 @@ button{
 .store{
   height: 100%;
   width: 20%;
+  padding-left: 30px;
 }
 .fa-solid{
   font-size: 20px;
@@ -119,6 +123,28 @@ button{
   width: 100%;
 }
 
+.page-1-text{
+  height: 100%;
+  width: 40%;
+  color: white;
+}
+.text-top{
+  height: 55%;
+  width: 100%;
+  padding-top: 35%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text-bot{
+  height: 45%;
+  width: 100%;
+  padding: 7% 40px  30% 40px;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(234, 234, 234);
+}
 .container-3{
   height: 100vh;
   width: 100vw;
@@ -405,7 +431,7 @@ Detail
 }
 
 .page-1{
-  background-image: url(https://stories.starbucks.com/_next/image/?url=https%3A%2F%2Fstories.starbucks.com%2Fuploads%2F2023%2F12%2FStarbucks-Winter-Menu-2024.png&w=1920&q=75);
+  background-image: url(https://www.starbucks.com.au/assets/uploads/2023/07/starbucks-about-mobile-background-1.jpg);
   background-size: cover;
 }
 

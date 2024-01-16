@@ -20,93 +20,99 @@ body::-webkit-scrollbar {
 }
 
 .navigation {
-    height: 10%;
     width: 100%;
     background-color: white;
     display: flex;
-}
-
-.symbol {
+    padding: 10px 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+    font-weight: 700;
+  }
+  
+  .symbol {
     margin-left: 2%;
-    height: 100%;
     width: 5%;
+    padding-top: 10px;
+    height: 50px;
     background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
-}
-
-.navi-1 {
+  }
+  
+  .navi-1 {
     height: 100%;
     width: 35%;
     text-decoration: none;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 14px;
     text-transform: uppercase;
     margin-left: 2%;
     font-size: 14px;
-}
-
-ul {
+  }
+  
+  ul {
     gap: 10px;
     display: flex;
     list-style-type: none;
-}
-
-.ar {
+  }
+  
+  .ar {
     color: black;
     text-decoration: none;
-}
-
-.ar {
+  }
+  
+  .ar {
     text-decoration: none;
     padding: 20px 30px;
-}
-
-.ar:hover {
+  }
+  
+  .ar:hover {
     background-color: black;
     color: white;
     padding: 20px 30px;
-}
-
-.navi-2 {
+  }
+  
+  .navi-2 {
     height: 100%;
     width: 58%;
     display: flex;
     justify-content: right;
-}
-
-
-.button {
+  }
+  
+  
+  
+  .button{
     height: 70%;
     width: 80%;
-    display: flex;
-    padding-left: 30%;
-    margin-top: 1%;
-    gap: 30px;
-}
-
-button {
-    padding: 10px 50px;
-    border-radius: 40%;
+    display:flex;
+    padding-left: 45%;
+    padding-top: 9px;
+    gap: 40px;
+  }
+  
+  button{
+    padding: 5px 1.5em;
+    border-radius: 100px;
     text-align: center;
-}
-
-
-.signin {
+  }
+  
+  
+  .signin{
     color: black;
     background-color: white;
-}
-
-.store {
+  }
+  .store{
     height: 100%;
     width: 20%;
-}
-
-.fa-solid {
+    padding-left: 30px;
+  }
+  .fa-solid{
     font-size: 20px;
     color: black;
     margin-top: 17px;
-}
+  }
+
+  
 
 .container-2 {
     height: 100vh;
@@ -116,6 +122,11 @@ button {
 .page-1 {
     height: 100%;
     width: 100%;
+}
+
+
+.buttonn{
+    padding: 10px 40px;
 }
 
 .container-3 {
