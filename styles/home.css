@@ -112,7 +112,11 @@ button {
 .container-2 {
   height: 100vh;
   width: 100vw;
+  background-size: cover;
+  background-image: url(/image/Simple\ Red\ and\ Beige\ Vintage\ Illustration\ History\ Report\ Presentation.jpg);
 }
+
+
 .page-1 {
   height: 100%;
   width: 100%;

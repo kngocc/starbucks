@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
     background-color: white;
     display: flex;
     padding: 10px 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
     font-weight: 700;
   }
   
@@ -78,6 +78,67 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: right;
   }
+  
+  
+  ul {
+    gap: 10px;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .ar {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .ar {
+    text-decoration: none;
+    padding: 20px 30px;
+  }
+  
+  .ar:hover {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+  }
+  
+  
+  .button {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    padding-left: 45%;
+    padding-top: 9px;
+    gap: 40px;
+  }
+  
+  button {
+    padding: 5px 1.5em;
+    border-radius: 100px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .signin {
+    color: black;
+    background-color: white;
+  }
+  
+  .store {
+    height: 100%;
+    width: 20%;
+  }
+  
+  .fa-solid {
+    font-size: 20px;
+    color: black;
+    margin-top: 17px;
+    padding-left: 20px;
+  }
+  
+  
   
   
   
@@ -447,15 +508,27 @@ header .search svg {
 
 .fixed-image {
     height: 100%;
-    width: 30%;
+    width: 40%;
     position: fixed top;
-    background-image: url(https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c01_vertical_card_724x1009/public/2022-06/MicrosoftTeams-image%20%2833%29.png.webp?itok=0ECkbbIB);
+    background-image: url(https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c01_vertical_card_724x1009/public/2020-08/Starbucks_Delivers.png.webp?itok=Z-W0Hxn0);
+    background-size: cover;
+}
+
+.right{
+    height: 100%;
+    width: 60%
+}
+.right-fixed-image{
+    height:30%;
+    width: 100%;
+    background-image: url(https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c02_horizontal_card_1335x534/public/2022-03/11312197-STARBUCKS-SBUX-DELIVERS-STARBUCKS_WEBSITE-BAG_AND_GRANDE-1133x476px-GREEN.jpg.webp?itok=qQ4Zl330);
     background-size: cover;
 }
 
 .page-1 {
     height: 100vh;
     width: 100vw;
+    display: flex;
 }
 
 .button-image{
@@ -683,3 +756,5 @@ header .search svg {
     height: 150px;
     background-color: aliceblue;
 }
+
+
