@@ -10,6 +10,16 @@ html {
   scroll-behavior: smooth;
 }
 
+.load{
+  height: 30vh;
+  margin-top: 190px;
+  margin-left: 544px;
+  background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
 @keyframes slidy {
   0% {
     left: 0%;

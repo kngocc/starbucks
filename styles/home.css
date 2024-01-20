@@ -2,14 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
-
+  font-family: "Nunito", sans-serif;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 body::-webkit-scrollbar {
   display: none;
@@ -18,7 +16,6 @@ body::-webkit-scrollbar {
 .container-1 {
   height: 100vh;
   width: 100vw;
- 
 }
 
 .navigation {
@@ -26,7 +23,8 @@ body::-webkit-scrollbar {
   background-color: white;
   display: flex;
   padding: 10px 30px;
-  box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.06),
+    0 0 2px rgba(0, 0, 0, 0.07);
   font-weight: 700;
 }
 
@@ -81,40 +79,37 @@ ul {
   justify-content: right;
 }
 
-
-
-.button{
+.button {
   height: 70%;
   width: 80%;
-  display:flex;
+  display: flex;
   padding-left: 45%;
   padding-top: 9px;
   gap: 40px;
 }
 
-button{
+button {
   padding: 5px 1.5em;
   border-radius: 100px;
   text-align: center;
 }
 
-
-.signin{
+.signin {
   color: black;
   background-color: white;
 }
-.store{
+.store {
   height: 100%;
   width: 20%;
   padding-left: 30px;
 }
-.fa-solid{
+.fa-solid {
   font-size: 20px;
   color: black;
   margin-top: 17px;
 }
 
-.container-2{
+.container-2 {
   height: 100vh;
   width: 100vw;
 }
@@ -123,12 +118,12 @@ button{
   width: 100%;
 }
 
-.page-1-text{
+.page-1-text {
   height: 100%;
   width: 40%;
   color: white;
 }
-.text-top{
+.text-top {
   height: 55%;
   width: 100%;
   padding-top: 35%;
@@ -137,20 +132,20 @@ button{
   font-weight: 700;
 }
 
-.text-bot{
+.text-bot {
   height: 45%;
   width: 100%;
-  padding: 7% 40px  30% 40px;
+  padding: 7% 40px 30% 40px;
   text-align: center;
   font-weight: 500;
   color: rgb(234, 234, 234);
 }
-.container-3{
+.container-3 {
   height: 100vh;
   width: 100vw;
 }
 
-#carouselExampleIndicators{
+#carouselExampleIndicators {
   height: 100vh;
   width: 100vw;
 }
@@ -167,7 +162,6 @@ Body
 body {
   height: 100vh;
   margin: 0;
-  background: radial-gradient(ellipse farthest-corner at center top, #03643E, #91D98A);
   color: #8b9095;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -214,7 +208,7 @@ header h1 {
   color: #1c222b;
 }
 header h1 strong {
-  background: #F16018;
+  background: #f16018;
   color: #fff;
   display: inline-block;
   border-radius: 30px;
@@ -320,7 +314,7 @@ Detail
   width: 12px;
   height: 12px;
   cursor: pointer;
-  border: 6px solid #FFF;
+  border: 6px solid #fff;
   box-sizing: content-box;
   z-index: 10;
 }
@@ -363,7 +357,7 @@ Detail
   line-height: 1.6;
 }
 .detail .play {
-  background: linear-gradient(90deg, #E4761F, #FF8B32);
+  background: linear-gradient(90deg, #e4761f, #ff8b32);
   border: none;
   border-radius: 20px;
   color: #fff;
@@ -430,52 +424,112 @@ Detail
   max-width: 100%;
 }
 
-.page-1{
+.page-1 {
   background-image: url(https://www.starbucks.com.au/assets/uploads/2023/07/starbucks-about-mobile-background-1.jpg);
   background-size: cover;
 }
 
 .footer {
   width: 100vw;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
+  border-top: solid 1px #1c222b;
 }
 
 .footer-line {
-  height: 10%;
-  width: 100%;
+  height: 10vh;
+  width: 100vw;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: grey;
-  margin-bottom: 0;
-  padding: 10px;
+  border-top: solid 1px #1c222b;
+  background-color: white;
+  color: black;
 }
 
+
+.line-right{
+  height: 100%;
+  width: 50%;
+  padding-left: 60px;
+  font-size: 13px;
+  padding-top: 18px;
+}
+
+.line-left{
+  height: 100%;
+  width: 50%;
+  padding-top: 15px;
+  padding-right: 80px;
+  font-size: 16px;
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+}
 .footer-apps {
   display: flex;
   gap: 40px;
 }
 
-.fa-brands {
+.fa-twitter  {
   color: black;
-  font-size: 20px;
-  padding: 0px 20px;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.fa-instagram{
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.fa-facebook{
+  color: black;
+  font-size: 30px;
+  padding: 20px 20px 20px 0;
 }
 
 .footer-main {
-  height: 90%;
-  width: 100%;
-  background-image: url(https://scontent.fhan5-9.fna.fbcdn.net/v/t1.15752-9/372695619_649657283923814_2764950344392574399_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zCAMR2j3ntUAX_o_xff&_nc_ht=scontent.fhan5-9.fna&oh=03_AdT8hjrDx4BSl-5_BhMr7aVCdoLqG_IkxOnJ6f3C1tjKYw&oe=651D51C4);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  display: flex;
-  flex-direction: row;
+  height: 50vh;
+  width: 100vw;
+  background-color: white;
   gap: 10px;
   padding: 50px 20px;
 }
 
+
+.container-col{
+  display: flex;
+  height:60% ;
+  width: 100%;
+  gap: 20px;
+  padding: 0px 40px;
+}
+
+.p{
+  margin-top: 13px;
+}
+
+.col-title{
+  color: black;
+  font-weight: 700;
+}
+
+.col-text{
+  margin-top: 26px;
+  color: black;
+
+}
+.col{
+  height: 100%;
+  width: 25%;
+}
+
+
+
+.footer-starbuck{
+  height:40%;
+  width: 25%;
+  padding: 42px;
+  margin-top: 18px;
+}
 .footer-title {
   height: 5%;
   width: 100%;
