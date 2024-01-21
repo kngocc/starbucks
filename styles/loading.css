@@ -5,6 +5,16 @@
     font-family: 'Nunito', sans-serif;
   
   }
+  
+  
+  html {
+      scroll-behavior: smooth;
+  }
+  
+  
+  body::-webkit-scrollbar {
+      display: none;
+  }
 
 .load{
     height: 30vh;
