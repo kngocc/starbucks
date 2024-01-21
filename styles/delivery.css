@@ -507,11 +507,12 @@ header .search svg {
 
 
 .fixed-image {
-    height: 100%;
+    height: 100vh;
     width: 40%;
-    position: fixed top;
+    position: fixed bottom;
     background-image: url(https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c01_vertical_card_724x1009/public/2020-08/Starbucks_Delivers.png.webp?itok=Z-W0Hxn0);
     background-size: cover;
+
 }
 
 .right{
@@ -519,16 +520,329 @@ header .search svg {
     width: 60%
 }
 .right-fixed-image{
-    height:30%;
+    height:fit-content;
     width: 100%;
-    background-image: url(https://www.starbucks.co.uk/sites/starbucks-uk/files/styles/c02_horizontal_card_1335x534/public/2022-03/11312197-STARBUCKS-SBUX-DELIVERS-STARBUCKS_WEBSITE-BAG_AND_GRANDE-1133x476px-GREEN.jpg.webp?itok=qQ4Zl330);
-    background-size: cover;
+
+}
+
+.style-img{
+    height: 306px;
+    width: 740px;
 }
 
 .page-1 {
     height: 100vh;
     width: 100vw;
     display: flex;
+}
+
+.step-deliver{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.step1{
+    height: 100%;
+    width: 32.5%;
+    margin-top: 50px;
+}
+
+.step1-img{
+    height: fit-content;
+    width: 100%;
+    border-radius: 50%;
+
+    
+}
+
+.footer {
+    width: 100vw;
+    background-color: #f7f7f7;
+    border-top: solid 1px #1c222b;
+  }
+  
+  .footer-line {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    border-top: solid 1px #1c222b;
+    background-color: white;
+    color: black;
+  }
+  
+  
+  .line-right{
+    height: 100%;
+    width: 50%;
+    padding-left: 60px;
+    font-size: 13px;
+    padding-top: 18px;
+  }
+  
+  .line-left{
+    height: 100%;
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 80px;
+    font-size: 16px;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+  }
+  .footer-apps {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .fa-twitter  {
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .fa-instagram{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .fa-facebook{
+    color: black;
+    font-size: 30px;
+    padding: 20px 20px 20px 0;
+  }
+  
+  .footer-main {
+    height: 50vh;
+    width: 100vw;
+    background-color: white;
+    gap: 10px;
+    padding: 50px 20px;
+  }
+  
+  
+  .container-col{
+    display: flex;
+    height:60% ;
+    width: 100%;
+    gap: 20px;
+    padding: 0px 40px;
+  }
+  
+  .p{
+    margin-top: 13px;
+  }
+  
+  .col-title{
+    color: black;
+    font-weight: 700;
+  }
+  
+  .col-text{
+    margin-top: 26px;
+    color: black;
+  
+  }
+  .col{
+    height: 100%;
+    width: 25%;
+  }
+  
+  
+  
+  .footer-starbuck{
+    height:40%;
+    width: 25%;
+    padding: 42px;
+    margin-top: 18px;
+  }
+  .footer-title {
+    height: 5%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-col-1 {
+    height: 100%;
+    width: 36%;
+  }
+  
+  .footer-main1-box1 {
+    height: 7%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .footer-main1-icon {
+    height: 100%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .bi-geo-alt-fill {
+    padding-top: 5px;
+  }
+  
+  .bi-telephone-fill {
+    padding-top: 10px;
+  }
+  
+  .bi-envelope {
+    padding-top: 10px;
+  }
+  
+  .footer-main1-infor1 {
+    height: 100%;
+    width: 70%;
+    font-size: 16px;
+    color: black;
+    padding-top: 5px;
+  }
+  
+  .footer-main1-box2 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .footer-main1-infor2 {
+    height: 100%;
+    width: 70%;
+    font-size: 16px;
+    color: black;
+    padding-top: 5px;
+  }
+  
+  .footer-main1-box3 {
+    height: 7%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .footer-main1-infor3 {
+    height: 100%;
+    width: 70%;
+    font-size: 16px;
+    color: black;
+    padding-top: 5px;
+  }
+  
+  .footer-col-2 {
+    height: 100%;
+    width: 37%;
+  }
+  
+  .footer-main2-box {
+    width: 100%;
+    height: 25%;
+    margin-top: 25px;
+    padding-left: 15px;
+  }
+  
+  .footer-main2-ques {
+    height: 40%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .footer-main2-ans {
+    height: 45%;
+    width: 100%;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .footer-main2-date {
+    height: 10%;
+    width: 100%;
+    color: black;
+  }
+  
+  .footer-col-3 {
+    height: 100%;
+    width: 38%;
+  }
+  
+  .footer-main3-box {
+    width: 100%;
+    height: 27%;
+    margin-top: 25px;
+    padding-left: 15px;
+  }
+  
+  .footer-main3-heading {
+    display: flex;
+    color: black;
+  }
+  
+  .footer-main3-icon {
+    height: 100%;
+    width: 15%;
+    color: black;
+  }
+  
+  .footer-main3-title1 {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    color: black;
+  }
+  
+  .footer-main3-title2 {
+    height: 100%;
+    width: 30%;
+    color: black;
+  }
+  
+  .footer-main3-text {
+    height: 70%;
+    width: 100%;
+    padding-left: 15%;
+    color: black;
+  }
+  
+  .bi-lightning-charge-fill {
+    color: yellow;
+  }
+  
+  .fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade.in {
+    opacity: 1;
+  }
+  
+  .drink-item {
+    width: 50%;
+    height: 150px;
+    background-color: aliceblue;
+  }
+
+.delivery-img{
+    width: 76px;
+    height: 77px;
+    margin-left: 82px;
+}
+
+.step1-title{
+    height:40% ;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
 }
 
 .button-image{
@@ -539,222 +853,3 @@ header .search svg {
  
     
 }
-.footer {
-    width: 100vw;
-    background-color: #F7F7F7;
-}
-
-.footer-line {
-    height: 10%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    margin-bottom: 0;
-    padding: 10px;
-}
-
-.footer-apps {
-    display: flex;
-    gap: 40px;
-}
-
-.fa-brands {
-    color: black;
-    font-size: 20px;
-    padding: 0px 20px;
-}
-
-.footer-main {
-    height: 90%;
-    width: 100%;
-    background-image: url(https://scontent.fhan5-9.fna.fbcdn.net/v/t1.15752-9/372695619_649657283923814_2764950344392574399_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zCAMR2j3ntUAX_o_xff&_nc_ht=scontent.fhan5-9.fna&oh=03_AdT8hjrDx4BSl-5_BhMr7aVCdoLqG_IkxOnJ6f3C1tjKYw&oe=651D51C4);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    padding: 50px 20px;
-}
-
-.footer-title {
-    height: 5%;
-    width: 100%;
-    font-size: 25px;
-    font-weight: 600;
-    color: black;
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-.footer-col-1 {
-    height: 100%;
-    width: 36%;
-}
-
-.footer-main1-box1 {
-    height: 7%;
-    width: 100%;
-    display: flex;
-}
-
-.footer-main1-icon {
-    height: 100%;
-    width: 13%;
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-}
-
-.bi-geo-alt-fill {
-    padding-top: 5px;
-}
-
-.bi-telephone-fill {
-    padding-top: 10px;
-}
-
-.bi-envelope {
-    padding-top: 10px;
-}
-
-.footer-main1-infor1 {
-    height: 100%;
-    width: 70%;
-    font-size: 16px;
-    color: black;
-    padding-top: 5px;
-}
-
-.footer-main1-box2 {
-    height: 10%;
-    width: 100%;
-    display: flex;
-}
-
-.footer-main1-infor2 {
-    height: 100%;
-    width: 70%;
-    font-size: 16px;
-    color: black;
-    padding-top: 5px;
-}
-
-.footer-main1-box3 {
-    height: 7%;
-    width: 100%;
-    display: flex;
-}
-
-.footer-main1-infor3 {
-    height: 100%;
-    width: 70%;
-    font-size: 16px;
-    color: black;
-    padding-top: 5px;
-}
-
-.footer-col-2 {
-    height: 100%;
-    width: 37%;
-}
-
-.footer-main2-box {
-    width: 100%;
-    height: 25%;
-    margin-top: 25px;
-    padding-left: 15px;
-}
-
-.footer-main2-ques {
-    height: 40%;
-    width: 100%;
-    font-size: 17px;
-    font-weight: 600;
-    color: black;
-}
-
-.footer-main2-ans {
-    height: 45%;
-    width: 100%;
-    color: black;
-    font-weight: 400;
-}
-
-.footer-main2-date {
-    height: 10%;
-    width: 100%;
-    color: black;
-}
-
-.footer-col-3 {
-    height: 100%;
-    width: 38%;
-}
-
-.footer-main3-box {
-    width: 100%;
-    height: 27%;
-    margin-top: 25px;
-    padding-left: 15px;
-}
-
-.footer-main3-heading {
-    display: flex;
-    color: black;
-}
-
-.footer-main3-icon {
-    height: 100%;
-    width: 15%;
-    color: black;
-}
-
-.footer-main3-title1 {
-    height: 100%;
-    width: 50%;
-    text-align: center;
-    color: black;
-}
-
-.footer-main3-title2 {
-    height: 100%;
-    width: 30%;
-    color: black;
-}
-
-.footer-main3-text {
-    height: 70%;
-    width: 100%;
-    padding-left: 15%;
-    color: black;
-}
-
-.bi-lightning-charge-fill {
-    color: yellow;
-}
-
-.fade {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.fade.in {
-    opacity: 1;
-}
-
-.list-drinks {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.drink-item {
-    width: 50%;
-    height: 150px;
-    background-color: aliceblue;
-}
-
-
