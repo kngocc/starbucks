@@ -33,3 +33,35 @@ tabsLists.click(function (e) {
     left: howFar + "%"
   });
 });
+
+
+
+let paramString = window.location.href.split("?")[1];
+let queryString = new URLSearchParams(paramString);
+const id = queryString.get("type");
+let productIn4 = {}
+
+
+function getProductList() {
+  fetch(`https://6578608df08799dc80451933.mockapi.io/detail/${id}`)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      productIn4 = data;
+      renderProductlist();
+      console.log(data);
+    });
+}
+
+function renderProductlist() {
+
+    const productImage = document.getElementById("product-image")
+    productImage.src = productIn4.image;
+    const productTitle = document.getElementById("product-title")
+    productTitle.textContent = productIn4.grandchild_type;
+
+   
+}
+
+getProductList();

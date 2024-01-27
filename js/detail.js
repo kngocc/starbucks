@@ -26,13 +26,37 @@ function renderProductlist() {
       productItem.getElementById("product-title").textContent = product.child_type;
       productImage.addEventListener('click', function() {
         console.log(1);
-        navigateToDetail(product.child_type)
+        navigateToDetail(product.grandchild_type)
       })
       productListElm.appendChild(productItem);
     }
   }
 
 getProductList();
+
+
+function renderProductlist() {
+  for (let index = 0; index < productList.length; index++) {
+    const product = productList[index];
+
+    const productItem = productTemp.content.cloneNode(true);
+    const productImage = productItem.getElementById("product-image")
+    productImage.src = product.image;
+    productItem.getElementById("product-title").textContent = product.child_type;
+    productImage.addEventListener('click', function() {
+      console.log(1);
+      navigateToDetail(product.id)
+    })
+    productListElm.appendChild(productItem);
+  }
+}
+
+
+function navigateToDetail(type) {
+  window.location = `./preferences.html?type=${type}`
+}
+
+
 
 
 function handleSignin() {

@@ -1,399 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
-
-html {
-	scroll-behavior: smooth;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Nunito", sans-serif;
-  }
-  
-  body::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .container-1 {
-    height: 100vh;
-    width: 100vw;
-   
-  }
-  
-  .navigation {
-    width: 100%;
-    background-color: white;
-    display: flex;
-    padding: 10px 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
-    font-weight: 700;
-  }
-  
-  .symbol {
-    margin-left: 2%;
-    width: 5%;
-    padding-top: 10px;
-    height: 50px;
-    background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-  }
-  
-  .navi-1 {
-    height: 100%;
-    width: 35%;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 14px;
-    text-transform: uppercase;
-    margin-left: 2%;
-    font-size: 14px;
-  }
-  
-  ul {
-    gap: 10px;
-    display: flex;
-    list-style-type: none;
-  }
-  
-  .ar {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .ar {
-    text-decoration: none;
-    padding: 20px 30px;
-  }
-  
-  .ar:hover {
-    background-color: black;
-    color: white;
-    padding: 20px 30px;
-  }
-  
-  .navi-2 {
-    height: 100%;
-    width: 58%;
-    display: flex;
-    justify-content: right;
-  }
-  
-  
-  ul {
-    gap: 10px;
-    display: flex;
-    list-style-type: none;
-  }
-  
-  .ar {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .ar {
-    text-decoration: none;
-    padding: 20px 30px;
-  }
-  
-  .ar:hover {
-    background-color: black;
-    color: white;
-    padding: 20px 30px;
-  }
-  
-  
-  .button{
-    height: 70%;
-    width: 80%;
-    display:flex;
-    padding-left: 45%;
-    padding-top: 9px;
-    gap: 40px;
-  }
-  
-  button{
-    padding: 5px 1.5em;
-    border-radius: 100px;
-    text-align: center;
-  }
-  
-  
-  
-  
-  .signin {
-    color: black;
-    background-color: white;
-  }
-  .store {
-    height: 100%;
-    width: 20%;
-  }
-  .fa-solid {
-    font-size: 20px;
-    color: black;
-    margin-top: 17px;
-    padding-left: 20px;
-  }
-  
-  
-  *,
-  *::before,
-  *::after { 
-    box-sizing: border-box;
-  }
-  
-  html {
-    background-color: #f0f0f0;
-  }
-  
-  body {
-    color:  #999999;
-    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    padding: 1rem;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga" on;
-  }
-  
-  img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-  }
-  
-  .btn {
-    background-color: white;
-    border: 1px solid #cccccc;
-     border-radius: 1rem;
-    color:#696969;
-    padding: 0.5rem;
-    text-transform: lowercase;
-  }
-  
-  .btn--block {
-    display: block;
-    width: 100%;
-  }
-   
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .cards__item {
-    display: flex;
-    padding: 1rem;
-    @media(min-width: 40rem) {
-      width: 50%;
-    }
-    @media(min-width: 56rem) {
-      width: 33.3333%;
-    }
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    &:hover {
-      .card__image {
-        filter: contrast(100%);
-      }
-    }
-  }
-  
-  .card__content {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    padding: 1rem;
-  }
-  
-  .card__image {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    filter: contrast(70%);
-  filter: saturate(180%);
-    overflow: hidden;
-    position: relative;
-    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
-    &::before {
-      content: "";
-      display: block;
-      padding-top: 56.25%; 
-    }
-    @media(min-width: 40rem) {
-      &::before {
-        padding-top: 66.6%; 
-      }
-    }
-  }
-  
-  .card__image--flowers {
-    background-image: url(https://unsplash.it/800/600?image=82);
-  }
-  
-  .card__image--river {
-    background-image: url(https://unsplash.it/800/600?image=11);
-  }
-  
-  .card__image--record {
-    background-image: url(https://unsplash.it/800/600?image=39);
-  }
-  
-  .card__image--fence {
-    background-image: url(https://unsplash.it/800/600?image=59);
-  }
-  
-  .card__title {
-    color:  #696969;
-    font-size: 1.25rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  
-  .card__text {
-    flex: 1 1 auto;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
 
 
-  .navigation {
-    width: 100%;
-    background-color: white;
-    display: flex;
-    padding: 10px 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.1), 0 2px 2px rgba(0,0,0,.06), 0 0 2px rgba(0,0,0,.07);
-    font-weight: 700;
-  }
+
+.container {
+  width: 100vw;
+}
+
+
+.navigation {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  padding: 10px 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
+  font-weight: 700;
+}
+
+.symbol {
+  margin-left: 2%;
+  width: 5%;
+  padding-top: 10px;
+  height: 50px;
+  background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.navi-1 {
+  height: 100%;
+  width: 35%;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 14px;
+  text-transform: uppercase;
+  margin-left: 2%;
+  font-size: 14px;
+}
+
+ul {
+  gap: 10px;
+  display: flex;
+  list-style-type: none;
+}
+
+.ar {
+  color: black;
+  text-decoration: none;
+}
+
+.ar {
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.ar:hover {
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+}
+
+.navi-2 {
+  height: 100%;
+  width: 58%;
+  display: flex;
+  justify-content: right;
+}
+
+
+ul {
+  gap: 10px;
+  display: flex;
+  list-style-type: none;
+}
+
+.ar {
+  color: black;
+  text-decoration: none;
+}
+
+.ar {
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.ar:hover {
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+}
+
+
+.button {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  padding-left: 45%;
+  padding-top: 9px;
+  gap: 40px;
+}
+
+button {
+  padding: 5px 1.5em;
+  border-radius: 100px;
+  text-align: center;
+}
+
+
+
+
+.signin {
+  color: black;
+  background-color: white;
+}
+
+.store {
+  height: 100%;
+  width: 20%;
+}
+
+.fa-solid {
+  font-size: 20px;
+  color: black;
+  margin-top: 17px;
+  padding-left: 20px;
+}
+
+
+.page-1 {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
+.featured-card{
+  height:36%;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+.container-featured{
+  height: 95%;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
   
-  .symbol {
-    margin-left: 2%;
-    width: 5%;
-    padding-top: 10px;
-    height: 50px;
-    background-image: url(https://i.pinimg.com/564x/14/55/09/145509e2e7c55b7ab8830545895b70c9.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-  }
+}
+.featured-title{
+  height: 5%;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.card{
+  border-radius: 10px;
+  height: 98%;
+  width: 24%;
+  background-color: #636363;
+  background-size: cover;
+
+}
+
+.featured-card1{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy24/ValentineHeartsFY24.jpg);
+}
+
+
+
+
+.featured-card2{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy23/WarmMyHeartFY23.jpg);
+}
+
+
+
+.featured-card3{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy24/LNYDragonFY24.png);
+}
+
+
+
+.featured-card4{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy24/ConfettiCelebrationFY24.jpg);
+}
+
+.card-receive{
+  height: 15%;
+  width: 100%;
+  margin-top: 58px;
+  background-color: #D4E9E2;
+  padding-left: 20px;
+  padding-top: 30px;
+  display: flex;
   
-  .navi-1 {
-    height: 100%;
-    width: 35%;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 14px;
-    text-transform: uppercase;
-    margin-left: 2%;
-    font-size: 14px;
-  }
-  
-  ul {
-    gap: 10px;
-    display: flex;
-    list-style-type: none;
-  }
-  
-  .ar {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .ar {
-    text-decoration: none;
-    padding: 20px 30px;
-  }
-  
-  .ar:hover {
-    background-color: black;
-    color: white;
-    padding: 20px 30px;
-  }
-  
-  .navi-2 {
-    height: 100%;
-    width: 58%;
-    display: flex;
-    justify-content: right;
-  }
-  
-  
-  ul {
-    gap: 10px;
-    display: flex;
-    list-style-type: none;
-  }
-  
-  .ar {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .ar {
-    text-decoration: none;
-    padding: 20px 30px;
-  }
-  
-  .ar:hover {
-    background-color: black;
-    color: white;
-    padding: 20px 30px;
-  }
-  
-  
-  .button{
-    height: 70%;
-    width: 80%;
-    display:flex;
-    padding-left: 45%;
-    padding-top: 9px;
-    gap: 40px;
-  }
-  
-  button{
-    padding: 5px 1.5em;
-    border-radius: 100px;
-    text-align: center;
-  }
-  
-  
-  
-  
-  .signin {
-    color: black;
-    background-color: white;
-  }
-  .store {
-    height: 100%;
-    width: 20%;
-  }
-  .fa-solid {
-    font-size: 20px;
-    color: black;
-    margin-top: 17px;
-    padding-left: 20px;
-  }
-  
-  
-  
+}
+
+.receive-text{
+  font-weight: 700;
+}
+
+.receive-text1{
+  padding-top: 3px;
+  padding-left: 5px;
+  text-align: center;
+  color: #636363;
+  font-size: 11px;
+}
+
+.gap{
+  height: 8%;
+  width: 100%;
+}
+
+
+.featured-card6{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy23/WarmMyHeartFY23.jpg);
+}
+
+.featured-card7{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy23/ValentinesDayFY23.png);
+}
+
+.featured-card8{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy23/PartyBirthdayFY23.jpg);
+}
+
+.featured-card9{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy24/BirthYayBalloonsFY24.png);
+}
+
+.featured-card10{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy22/BirthYayFY22.jpg);
+}
+
+.featured-card11{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy24/YoureAmazingFY24.jpg);
+}
+
+.featured-card12{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy20/FriendsBuyCoffeeFY20.jpg);
+}
+
+.featured-card13{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy24/YouGotThisFY24.png);
+}
+
+.featured-card14{
+  background-image: url(https://globalassets.starbucks.com/digitalassets/cards/fy21/HardWorkNoticedFY21.jpg);
+}
+
+
+.add{
+  margin-left: 50px;
+}
+
+.balance{
+  background-color: black;
+  color: white;
+}

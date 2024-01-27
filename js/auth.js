@@ -40,7 +40,7 @@ function handleRegister(e) {
   window.location = "./index.html";
 }
 
-registerForm.addEventListener("submit", handleRegister);
+registerForm.addEventListener("submit", handleRegister());
 
 function handleLogin(e) {
   e.preventDefault();
@@ -51,7 +51,6 @@ function handleLogin(e) {
     if (element.email === loginEmail.value && element.password === loginPassword.value) {
       alert("Dang nhap thanh cong!");
       window.location = "./index.html";
-      return;
     }
   }
   alert("Sai thong tin dang nhap!");
