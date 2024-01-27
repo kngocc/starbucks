@@ -64,7 +64,7 @@ function handleSignin() {
   window.location = './auth.html'
 }
 const signIn = document.getElementById('signin');
-signIn.addEventListener('click', function() {handleSignin()})
+signIn.addEventListener('click', handleSignin())
 
 
 function transportHome() {
@@ -72,4 +72,4 @@ function transportHome() {
 }
 
 const homeHtml = document.getElementById('symbol');
-homeHtml.addEventListener('click', function() {transportHome()})
+homeHtml.addEventListener('click', transportHome)
