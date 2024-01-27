@@ -40,7 +40,7 @@ function handleRegister(e) {
   window.location = "./index.html";
 }
 
-registerForm.addEventListener("submit", handleRegister());
+registerForm.addEventListener("submit", function(e) {handleRegister(e)});
 
 function handleLogin(e) {
   e.preventDefault();
@@ -56,7 +56,7 @@ function handleLogin(e) {
   alert("Sai thong tin dang nhap!");
 }
 
-loginForm.addEventListener("submit", handleLogin);
+loginForm.addEventListener("submit", function(e) {handleLogin(e)});
 
 
 
@@ -64,7 +64,7 @@ function handleSignin() {
   window.location = './auth.html'
 }
 const signIn = document.getElementById('signin');
-signIn.addEventListener('click', handleSignin)
+signIn.addEventListener('click', function() {handleSignin()})
 
 
 function transportHome() {
@@ -72,4 +72,4 @@ function transportHome() {
 }
 
 const homeHtml = document.getElementById('symbol');
-homeHtml.addEventListener('click', transportHome)
+homeHtml.addEventListener('click', function() {transportHome()})
