@@ -6,20 +6,6 @@
   font-family: "Nunito", sans-serif;
 }
 
-video::-webkit-media-controls {
-  display: none;
-}
-
-/* Could Use thise as well for Individual Controls */
-video::-webkit-media-controls-play-button {}
-
-video::-webkit-media-controls-volume-slider {}
-
-video::-webkit-media-controls-mute-button {}
-
-video::-webkit-media-controls-timeline {}
-
-video::-webkit-media-controls-current-time-display {}
 
 html {
   scroll-behavior: smooth;
@@ -140,7 +126,32 @@ button {
   height: 100%;
   width: 100%;
 }
+.page-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+    border-top: solid 1px black;
+  
+  
+}
+
+.location{
+  margin-top: 40px;
+  height: 10%;
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.fa-map-location-dot{
+  font-size: 30px;
+  margin-top: 20px;
+}
 
 .buttonn {
   padding: 10px 40px;
@@ -492,6 +503,7 @@ width: 100vw;
   height: 70%;
   width: 50%;
   display: flex;
+  margin-top: 30px;
 }
 
 .step1 {

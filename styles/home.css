@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 }
 
 .container-all {
-  background-color:white;
+ background-color: white;
 }
 
 .container-1 {
@@ -116,27 +116,47 @@ button {
   margin-top: 17px;
 }
 
+.wraper-2{
+  height: 100vh;
+  width: 100vw;
+}
 .container-2 {
   width: 33vw;
-  height: 100vh;
+  height: 75vh;
   margin: auto;
+  
+}
+
+.left-column{
+  width: 33vw;
+  height: 100vh;
 }
 
 .swiper-right {
   width: 33vw;
   height: 90vh;
-  background-color: black;
 }
 
 .title2 {
-  height: 15vh;
+  margin-top: 97px;
+  padding: 20px 0;
   width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  background-image: linear-gradient(90deg, #016243, #86936A, whitesmoke);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .page-1 {
   height: 100%;
   width: 100%;
+    border-bottom: solid 1px black;
+  
 }
 
 .page-1-text {
